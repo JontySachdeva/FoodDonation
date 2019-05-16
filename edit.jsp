@@ -256,7 +256,7 @@ input:focus, textarea:focus {
 
 						<!-- Form with header -->
 
-					  <form style="width:30%; padding-top:1px;">
+					  <form method="post" enctype="multipart/form-data" style="width:30%; padding-top:1px;" >
 							<div class="card border-primary rounded-0" style="border:none; background-color:rgba(0,0,0,0.5)">
 								<div class="card-header" style="background-color:#F8B350; background-color:rgba(0,0,0,0.5)">
 									<div class="text-white text-center py-2"
@@ -269,14 +269,18 @@ input:focus, textarea:focus {
 								</div>
 								<div class="card-body p-3">
                                   <center><div class="jumbotron" style="background-color:white; width:100px; height:15px; text-align:center;padding-top:1px;">
-									<div class="fileinput fileinput-new text-center"
+									<!-- <div class="fileinput fileinput-new text-center"
                                                                      data-provides="fileinput">
                                                                      <div class="fileinput-new thumbnail"><br>
                                                                            <img src="../assets/img/image_placeholder.jpg" alt="...">
                                                                      </div>
                                                                      <div class="fileinput-preview fileinput-exists thumbnail"></div>
 
-                                                                </div>
+                                                                </div> -->
+                                             <div style="margin-left:-30px; margin-top:10px; color:#F8B350;">
+                                            
+                                            <input type="file" id="file" name="file" multiple>
+                                                 </div>
                                                                
                                                                 </div>
                                                                 </center>
