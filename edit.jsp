@@ -268,7 +268,7 @@ input:focus, textarea:focus {
 									</div>
 								</div>
 								<div class="card-body p-3">
-                                  <center><div class="jumbotron" style="background-color:white; width:100px; height:15px; text-align:center;padding-top:1px;">
+                                  <center><div class="jumbotron" style="background-color:transparent; width:100px; height:15px; text-align:center;padding-top:1px;">
 									<!-- <div class="fileinput fileinput-new text-center"
                                                                      data-provides="fileinput">
                                                                      <div class="fileinput-new thumbnail"><br>
